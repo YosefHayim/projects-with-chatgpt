@@ -1,0 +1,69 @@
+2024-08-13T20:42:20.028Z - Script started
+2024-08-13T20:42:21.829Z - Captcha popped up...
+2024-08-13T20:42:21.836Z - Captcha image URL: https://images-na.ssl-images-amazon.com/captcha/xzqdsmvh/Captcha_ofcqpcbypx.jpg
+2024-08-13T20:42:22.352Z - 25.80807
+2024-08-13T20:42:27.382Z - Captcha Result: FRHTPM
+2024-08-13T20:42:31.022Z - Solved Captcha
+2024-08-13T20:42:56.461Z - Clicked on '4 Stars & Up' filter.
+2024-08-13T20:43:07.608Z - Scraping only coupon ASINs...
+2024-08-13T20:43:12.623Z - Finished Filters Stage continue to scarping...
+2024-08-13T20:43:12.624Z - searchTerm received: bags
+2024-08-13T20:43:17.630Z - Error detecting Captcha: TimeoutError: Waiting for selector `body > div > div.a-row.a-spacing-double-large > div.a-section > div > div > form > div.a-row.a-spacing-large > div > div > h4` failed: Waiting failed: 5000ms exceeded
+2024-08-13T20:43:22.642Z - Asins Found on this page: 35
+2024-08-13T20:43:22.643Z - ASINs on this page: B01N1V8T9R, B06XPN9GQJ, B071GC47LX, B0BNKX8NGH, B07QQF9XP7, B0BKGD26KX, B09H3CZ7K3, B09V7QP7L7, B0854J48FD, B07QN8H9TD, B093TLNBSG, B0C4P8LF71, B08K2DM2L5, B0CJ8PHN2Z, B08GG1P4Y3, B0CXLW6RGJ, B09DSCK7PC, B0CDGRPYM3, B0BCJCYGLL, B07V3HLBVF, B0CRDH745H, B09VZGFNMT, B0CDWQTY91, B093RJ216Z, B001U005B8, B09D1YJQLD, B005GSYXJ0, B0C4H9ZJ7P, B0C1FWS7CV, B01N2WTU9W, B07TFB5X1G, B07TMZDGQ1, B0D4DY8Z4C, B0C5BRT18X, B0CPVJ4C7D
+2024-08-13T20:43:27.659Z - Error detecting Captcha: TimeoutError: Waiting for selector `body > div > div.a-row.a-spacing-double-large > div.a-section > div > div > form > div.a-row.a-spacing-large > div > div > h4` failed: Waiting failed: 5000ms exceeded
+2024-08-13T20:43:27.679Z - Total Pages: 1 / NaN
+2024-08-13T20:43:27.711Z - Moving to next page: 2
+2024-08-13T20:43:32.723Z - Error detecting Captcha: TimeoutError: Waiting for selector `body > div > div.a-row.a-spacing-double-large > div.a-section > div > div > form > div.a-row.a-spacing-large > div > div > h4` failed: Waiting failed: 5000ms exceeded
+2024-08-13T20:43:37.732Z - Asins Found on this page: 38
+2024-08-13T20:43:37.732Z - ASINs on this page: B01N1V8T9R, B06XPN9GQJ, B071GC47LX, B09C8XXC7G, B0748MVHNM, B09STL15PS, B0B5W84TZX, B082TH44KK, B00M8ZEB3C, B07J66VBDR, B0932R5V3C, B0936FV46Q, B083CRRYQW, B09HC8HT7V, B01GNWA6JI, B07MLM81VG, B01NALTSOP, B098991PPP, B0BLZ4Z61J, B08DQX747P, B0BHRDK3CM, B0CR8ZKVNS, B0B2RDJ98J, B08JH9TRDG, B078MJZ3TD, B0C13J4JD5, B08L7GLR92, B01N2WTGBU, B00DH4IQSE, B088MLQC2G, B07V3J3Y5V, B07QV5RNWH, B09KYBZQRT, B08JH9DBVT, B07KWXXL4Q, B0CC4T9TR7, B07ZJQGHZL, B0D3J53PBP
+2024-08-13T20:43:42.734Z - Error detecting Captcha: TimeoutError: Waiting for selector `body > div > div.a-row.a-spacing-double-large > div.a-section > div > div > form > div.a-row.a-spacing-large > div > div > h4` failed: Waiting failed: 5000ms exceeded
+2024-08-13T20:43:42.741Z - Total Pages: 2 / 400
+2024-08-13T20:43:42.762Z - Moving to next page: 3
+2024-08-13T20:43:47.768Z - Error detecting Captcha: TimeoutError: Waiting for selector `body > div > div.a-row.a-spacing-double-large > div.a-section > div > div > form > div.a-row.a-spacing-large > div > div > h4` failed: Waiting failed: 5000ms exceeded
+2024-08-13T20:43:52.779Z - Asins Found on this page: 37
+2024-08-13T20:43:52.779Z - ASINs on this page: B0748N39T2, B0748NFNBV, B0BQ5KN672, B0CDPL4NKC, B0D3DTGZH9, B09QW6DWGT, B07KX5LSQX, B09HC6WBWJ, B0D69D3YJP, B0D69PPZW4, B09376XBB1, B08WPNNQGW, B01MU33AUF, B085PSPR7M, B0028LTDDO, B019FZRLMK, B0CKXK14SX, B09MF88MLT, B0BXR5M5SK, B0C13CHSG9, B0BLRTDT6V, B0CJF8QFSB, B007GMLUYA, B09ZY1SG6Y, B08SVMGJM4, B0C12VY31B, B07TV5RNQL, B0C7LMLWD7, B08FXPHT1J, B0C5BWRMQL, B0CHMTLFXT, B0CHMTKBWS, B0788VLHNW, B01N8ZQO26, B07C4VC1QB, B082Z56836, B08F2XTPJR
+2024-08-13T20:43:57.788Z - Error detecting Captcha: TimeoutError: Waiting for selector `body > div > div.a-row.a-spacing-double-large > div.a-section > div > div > form > div.a-row.a-spacing-large > div > div > h4` failed: Waiting failed: 5000ms exceeded
+2024-08-13T20:43:57.794Z - Total Pages: 3 / 400
+2024-08-13T20:43:57.816Z - Moving to next page: 4
+2024-08-13T20:44:02.830Z - Error detecting Captcha: TimeoutError: Waiting for selector `body > div > div.a-row.a-spacing-double-large > div.a-section > div > div > form > div.a-row.a-spacing-large > div > div > h4` failed: Waiting failed: 5000ms exceeded
+2024-08-13T20:44:07.844Z - Asins Found on this page: 37
+2024-08-13T20:44:07.844Z - ASINs on this page: B0748N39T2, B0748NFNBV, B085PRV859, B0C591V369, B0C5WL8YLG, B07W3Q7LLG, B0BLR82Z56, B09Y5Q1JHF, B0CPPCX994, B0CPP9WKV8, B0CPPBWHYP, B0B7X3GMF9, B07RY4RXLV, B0B7X1LLZ9, B07G7V6JZB, B0CN2W53SD, B0CQ7XW6H2, B09DZ4FXR3, B077GYP81Q, B07V5LJ4Y5, B0CKY4BS1S, B09B4GMR1R, B0CFL8HRMB, B0CPPDK1HK, B07JKJVBJG, B0CDGXL4S7, B06XPN9GQJ, B098B5Z6KG, B07CZTTBCD, B09FFSKPRX, B08G57KC7H, B093CJ2TCM, B07JD8X5NX, B0CB42KPYW, B07G9Q8SGL, B0B3WMX759, B0CD2MWB1X
+2024-08-13T20:44:12.849Z - Error detecting Captcha: TimeoutError: Waiting for selector `body > div > div.a-row.a-spacing-double-large > div.a-section > div > div > form > div.a-row.a-spacing-large > div > div > h4` failed: Waiting failed: 5000ms exceeded
+2024-08-13T20:44:12.939Z - Total Pages: 4 / 400
+2024-08-13T20:44:13.028Z - Moving to next page: 5
+2024-08-13T20:44:18.040Z - Error detecting Captcha: TimeoutError: Waiting for selector `body > div > div.a-row.a-spacing-double-large > div.a-section > div > div > form > div.a-row.a-spacing-large > div > div > h4` failed: Waiting failed: 5000ms exceeded
+2024-08-13T20:44:23.055Z - Asins Found on this page: 38
+2024-08-13T20:44:23.055Z - ASINs on this page: B0748N39T2, B0748NFNBV, B09JVZF7H1, B07BPT1X7D, B088ZXM4PN, B0CC51TD7X, B098B5Z6KG, B09FFSKPRX, B07J66VBDR, B0932R5V3C, B0936FV46Q, B08G57KC7H, B093CJ2TCM, B07JD8X5NX, B07CZTTBCD, B0CB42KPYW, B07YTTSGK7, B096RY5NMK, B0748MRJH3, B0BLRTP7Q1, B0C1V4NHS3, B09Y5Q1JHF, B07V3J3Y5V, B07D9WNTT2, B08XB3KH2J, B0BKG8SFFP, B0D79XGNCH, B0C1BB3PH3, B087R2G3B6, B00YE5NFFE, B0CR6LF83S, B0C5C1JTC4, B0BFVYXQ1R, B0CR91QKQM, B0C13B1WW2, B07CCM7Q73, B0851YGJJS, B08S39VMZX
+2024-08-13T20:44:28.067Z - Error detecting Captcha: TimeoutError: Waiting for selector `body > div > div.a-row.a-spacing-double-large > div.a-section > div > div > form > div.a-row.a-spacing-large > div > div > h4` failed: Waiting failed: 5000ms exceeded
+2024-08-13T20:44:28.073Z - Total Pages: 5 / 400
+2024-08-13T20:44:28.097Z - Moving to next page: 6
+2024-08-13T20:44:33.110Z - Error detecting Captcha: TimeoutError: Waiting for selector `body > div > div.a-row.a-spacing-double-large > div.a-section > div > div > form > div.a-row.a-spacing-large > div > div > h4` failed: Waiting failed: 5000ms exceeded
+2024-08-13T20:44:38.116Z - Asins Found on this page: 37
+2024-08-13T20:44:38.116Z - ASINs on this page: B01N1V8T9R, B06XPN9GQJ, B071GC47LX, B0D499PXXB, B0C711J95P, B07F1YNBQK, B0C13BHKZ3, B0CDB9QXT5, B0CW1ZBP6P, B09GPNQCW4, B09LRJ3JSF, B073Z12V4Q, B0D47QB6FB, B0BNKX8NGH, B0BZM7MJP9, B09HC6L7ZC, B0C6W1QQG3, B07515TW8M, B0C4TPH284, B0C12VY31B, B0BS1SCDTV, B0CJF8MQ27, B08BKJ5V68, B0C28FSGM2, B0CTTYCHWH, B0CGVXJ1HQ, B0BY8GM1ZH, B07V813VMY, B091BQ8MD7, B0BWRNK3N2, B075MMNP8V, B0CBBSGYT4, B0CPPCX994, B01H0WLQAS, B0D2NMRKYK, B08XJL6LFQ, B0B154RL29
+2024-08-13T20:44:43.119Z - Error detecting Captcha: TimeoutError: Waiting for selector `body > div > div.a-row.a-spacing-double-large > div.a-section > div > div > form > div.a-row.a-spacing-large > div > div > h4` failed: Waiting failed: 5000ms exceeded
+2024-08-13T20:44:43.125Z - Total Pages: 6 / 400
+2024-08-13T20:44:43.145Z - Moving to next page: 7
+2024-08-13T20:44:48.160Z - Error detecting Captcha: TimeoutError: Waiting for selector `body > div > div.a-row.a-spacing-double-large > div.a-section > div > div > form > div.a-row.a-spacing-large > div > div > h4` failed: Waiting failed: 5000ms exceeded
+2024-08-13T20:44:53.174Z - Asins Found on this page: 39
+2024-08-13T20:44:53.174Z - ASINs on this page: B01N1V8T9R, B06XPN9GQJ, B071GC47LX, B0CD2RD5RQ, B078J9QRM7, B0C137281Q, B0CF4JVRN7, B07DJJRJ83, B0CP92FZYY, B07PMW7HV1, B0916T3WFJ, B08KQ4PZGM, B0CJ2DZ6D7, B09M278DGC, B0BWLXZHCK, B00002N8DH, B0CT6NNP49, B00INV51ZM, B07DV5YDTP, B0CD7JPY1W, B0CLTSXXXK, B0921NQVYD, B09Y5PHKN9, B0CTLSKGN8, B0BLT14DF4, B0CTK8HX34, B0CH2M2Q48, B084F3YQMH, B0D141FCC6, B0CP59638N, B0CM68WGFC, B07C4TK46Z, B0CDZYQNQH, B08YP166KW, B083Z2BZXC, B0CZ3Y4SYT, B0BZLKZDWB, B0BG7DM6P6, B09PGKB9T8
+2024-08-13T20:44:58.176Z - Error detecting Captcha: TimeoutError: Waiting for selector `body > div > div.a-row.a-spacing-double-large > div.a-section > div > div > form > div.a-row.a-spacing-large > div > div > h4` failed: Waiting failed: 5000ms exceeded
+2024-08-13T20:44:58.182Z - Total Pages: 7 / 400
+2024-08-13T20:44:58.203Z - Moving to next page: 8
+2024-08-13T20:45:03.210Z - Error detecting Captcha: TimeoutError: Waiting for selector `body > div > div.a-row.a-spacing-double-large > div.a-section > div > div > form > div.a-row.a-spacing-large > div > div > h4` failed: Waiting failed: 5000ms exceeded
+2024-08-13T20:45:08.217Z - Asins Found on this page: 38
+2024-08-13T20:45:08.218Z - ASINs on this page: B01N1V8T9R, B06XPN9GQJ, B071GC47LX, B0CF2QNV8M, B0CSYZCF8Y, B0C8HZYJQS, B073Z1BBB3, B0CX4NYQNK, B0D3F6SQRX, B0D69D3YJP, B0D69PPZW4, B0CYHJ7PK4, B0BQB56M9D, B07PVDS1XB, B0BNDHCP6W, B07T5VYX7C, B095LKV3MR, B0CP5TS5Q5, B086QK9H9W, B0BFL47ZJP, B0C13FZ319, B0CHMTLFXT, B09HBN5248, B0B1ZYQBHT, B0CRDCT49Y, B0CYWKMMM4, B07XM5475F, B0CDBV92F1, B09HSDCFZM, B0CY975HV5, B09396QGCR, B07HFLSZPN, B0CZLD99WW, B0CSJVZXZZ, B0CN2PBDL2, B0CBB3M7ZW, B08G8HLXW6, B0C1NWHTKT
+2024-08-13T20:45:13.231Z - Error detecting Captcha: TimeoutError: Waiting for selector `body > div > div.a-row.a-spacing-double-large > div.a-section > div > div > form > div.a-row.a-spacing-large > div > div > h4` failed: Waiting failed: 5000ms exceeded
+2024-08-13T20:45:13.238Z - Total Pages: 8 / 400
+2024-08-13T20:45:13.259Z - Moving to next page: 9
+2024-08-13T20:45:18.273Z - Error detecting Captcha: TimeoutError: Waiting for selector `body > div > div.a-row.a-spacing-double-large > div.a-section > div > div > form > div.a-row.a-spacing-large > div > div > h4` failed: Waiting failed: 5000ms exceeded
+2024-08-13T20:45:23.284Z - Asins Found on this page: 35
+2024-08-13T20:45:23.285Z - ASINs on this page: B0748N39T2, B0748NFNBV, B0194CUNCO, B0C6X7N72H, B07VGKRK22, B0CZLD99WW, B0CSJVZXZZ, B0C1SLNBGH, B0BZLWP1YD, B0B2P8NFHC, B0CN2PBDL2, B0CB8ZV1VH, B0D4MHZ1GZ, B0CR49F2JK, B0CD77HWX9, B0CY297P42, B0CWK1QCJG, B0767MZWXP, B00FQS44TY, B09252N8LF, B0B64RQ8RD, B08FT367JQ, B0CMTXN1RW, B0B3M4WR3Q, B0D11DC6D1, B0CYPLX65X, B0C81P9NSS, B0D4TXGTGG, B0D84FFHCP, B0CX158JXN, B0CQ2KM2BW, B0CM2XBT4M, B0C6FLZY75, B0CBB3FX1B, B0854J48FD
+2024-08-13T20:45:28.301Z - Error detecting Captcha: TimeoutError: Waiting for selector `body > div > div.a-row.a-spacing-double-large > div.a-section > div > div > form > div.a-row.a-spacing-large > div > div > h4` failed: Waiting failed: 5000ms exceeded
+2024-08-13T20:45:28.306Z - Total Pages: 9 / 400
+2024-08-13T20:45:28.326Z - Moving to next page: 10
+2024-08-13T20:45:29.496Z - Error detecting Captcha: TargetCloseError: Waiting for selector `body > div > div.a-row.a-spacing-double-large > div.a-section > div > div > form > div.a-row.a-spacing-large > div > div > h4` failed: Protocol error (Runtime.callFunctionOn): Target closed
+2024-08-13T20:45:29.599Z - An error occurred: Waiting for selector `[data-asin]` failed: waitForFunction failed: frame got detached.
+2024-08-13T20:45:29.600Z - ASINs have been saved to C:\Github\Javascript-Projects\12.08.2024 - Amazon ASINS Scraper\History Asins\bags_293_asins.csv
+2024-08-13T20:45:29.600Z - ASINs have been saved (if any were found).
+2024-08-13T20:45:29.601Z - Script finished

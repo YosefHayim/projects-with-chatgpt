@@ -1,0 +1,1689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===== Font awesome ICONS ===== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- ===== CSS ===== -->
+  <link rel="stylesheet" href="css/style2.css" />
+
+  <title>Bolt Asins</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('[data-toggle="tooltip"]').tooltip({
+        placement: 'top'
+      });
+    });
+  </script>
+
+</head>
+
+<body id="body-pd">
+  <header class="header" id="header">
+    <div class="header__toggle">
+      <!--                <i class='bx bx-menu' id="header-toggle"></i>-->
+      <i class="fa fa-angle-double-left" aria-hidden="true" id="header-toggle"></i>
+
+      <div class="dash-title">
+        <p>Dashboard</p>
+      </div>
+    </div>
+
+    <div class="header__text">
+      <a href="#">John Doe</a>
+      <i class="fa fa-bell" aria-hidden="true"></i>
+    </div>
+   
+  </header>
+
+  <div class="l-navbar" id="nav-bar">
+    <nav class="nav">
+      <div>
+
+
+        <div class="nav__list mt-5 pt-3">
+          <a class="nav__link active">
+            <span class="nav__name">
+              <button class="tablinks" onclick="dashBrd(event, 'Dashboard')" id="defaultOpen">
+                <i class="fa-solid fa-house"></i>
+                Dashboard
+              </button>
+            </span>
+          </a>
+
+          <a class="nav__link">
+            <span class="nav__name">
+              <button class="tablinks" onclick="dashBrd(event, 'Bulk')">
+                <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+                Discounts&Coupon ASINS
+              </button>
+            </span>
+          </a>
+
+          <a class="nav__link">
+            <span class="nav__name">
+              <button class="tablinks" onclick="dashBrd(event, 'Seller')">
+                <i class="fa-solid fa-address-card"></i>
+                eBay Competitor ASINS
+              </button>
+            </span>
+          </a>
+
+          <a class="nav__link">
+            <span class="nav__name">
+              <button class="tablinks" onclick="dashBrd(event, 'Vcc')">
+                <i class="fa-solid fa-credit-card"></i>
+                Virtual Credit Card
+              </button>
+            </span>
+          </a>
+
+          <a class="nav__link">
+            <span class="nav__name">
+              <button class="tablinks" onclick="dashBrd(event, 'History')">
+                <i class="fa-solid fa-sack-dollar"></i>
+                Payment History
+              </button>
+            </span>
+          </a>
+
+          <a class="nav__link">
+            <span class="nav__name">
+              <button class="tablinks" onclick="dashBrd(event, 'Profile')">
+                <i class="fa-solid fa-user"></i>
+                Profile
+              </button>
+            </span>
+          </a>
+          <a class="nav__link">
+            <span class="nav__name">
+              <button class="tablinks" onclick="dashBrd(event, 'Affiliate')">
+                <i class="fa-solid fa-user-group"></i>
+                Affiliate
+              </button>
+            </span>
+          </a>
+
+          <a class="nav__link">
+            <span class="nav__name">
+              <button class="tablinks" onclick="dashBrd(event, 'Tickets')">
+                <i class="fa-solid fa-circle-check"></i>
+                Technical Support
+              </button>
+            </span>
+          </a>
+
+          <a class="nav__link" href="index.html">
+            <span class="nav__name">
+              <button class="tablinks" onclick="dashBrd(event, 'Log')">
+
+                <i class="fa-solid fa-arrow-right-to-bracket" style="transform: rotate(180deg);"></i>
+                Log out
+              </button>
+            </span>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- SHOWCASE SECTION -->
+  <div class="showcase">
+    <div id="Dashboard" class="tabcontent">
+    <div class="main-container">
+      <div class="pd-ltr-20">
+        <div class="row">
+          <div class="col-md-4 mx-auto" style="margin-right:auto;">
+            <div class="card shadow">
+                <div class="seo-fact sbg1">
+                    <div class="p-4 d-flex justify-content-center align-items-center">
+                        <h5>
+                            Asian Credits: 100
+                        </h5>
+                        <!-- <i class="fa-solid fa-badge-check" aria-hidden="true"></i> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+          <div class="row">
+              <div class="card-box pd-20 height-100-p mb-20 mt-4">
+                  <div class="row align-items-center">
+                      
+                      <div class="col-md-12">
+                          <h4 class="font-20 weight-600 mb-10 text-capitalize">
+                              Welcome back <div class="weight-600 font-30">Johnny Brown!</div>
+                          </h4>
+                          <p class="font-18 ">Lorem ipsum dolor sit amet,
+                              consectetur adipisicing elit. Unde hic non repellendus debitis iure, doloremque
+                              assumenda. Autem modi, corrupti, nobis ea iure fugiat, veniam non quaerat mollitia animi error corporis</p>
+                            
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+               
+              <div class="col-md-8 mx-auto pe-auto pe-md-0">
+                  <div class="row">
+                    <div class="col-md-6 mt-md-5 mb-3">
+                      <div class="card shadow">
+                          <div class="seo-fact sbg1">
+                              <div class="p-4 d-flex justify-content-between align-items-center">
+                                  <h5>
+                                      Total ASINS: 0
+                                  </h5>
+
+                                  <img class="fa fa-cloud" src="./images/ebay.png">
+
+                              </div>
+
+                          </div>
+                      </div>
+                  </div>
+                      <div class="col-md-6 mt-md-5 mb-3">
+                          <div class="card shadow">
+                              <div class="seo-fact sbg1">
+                                  <div class="p-4 d-flex justify-content-between align-items-center">
+                                      <h5>
+                                          Total ASINS: 0
+                                      </h5>
+
+                                      <img class="fa fa-cloud" src="./images/amazon.png">
+
+                                  </div>
+
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-6 mb-3 mb-lg-0">
+                          <div class="card shadow">
+                              <div class="seo-fact sbg1">
+                                  <div class="p-4 d-flex justify-content-between align-items-center">
+                                      <h5>
+                                          Total VCC's: 0
+                                      </h5>
+                                      <i class="fa fa-credit-card" aria-hidden="true"></i>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                          <div class="card shadow">
+                              <div class="seo-fact sbg1">
+
+                                <a href="./pricing.html">
+                                  <div class="p-4 d-flex justify-content-center align-items-center">
+                                    <h5 class="textCenter" style="color: #000;">
+                                        Upgrade Subscriptions
+                                    </h5>
+                                    <i class="fa-solid fa-badge-check" aria-hidden="true"></i>
+                                </div>
+                                </a>
+
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+
+          </div>
+      </div>
+  </div>
+  <br><br>
+
+  <div class="main-container" style="padding-top: 20px;">
+
+      <div class="pd-ltr-20">
+          <div class="row">
+              <!-- <div class="col-md-12 graphset">
+                  <p class="track-heading">
+                      ASINS GRAPH
+                  </p>
+                  <div class="chartCard">
+                      <div class="chartBox">
+
+                          <canvas id="myChart"></canvas>
+
+                          <div class="btns mt-3 mb-3">
+                              <input id="start" type="date" min="2022-04-25" max="2022-04-27" value="2022-04-25"
+                                  lang="fr-CA">
+                              <input id="end" type="date" min="2022-04-28" max="2022-05-01" value="2022-05-01">
+                              <button onclick="filterDate()">Filter</button>
+                              <button onclick="resetDate()">Reset</button>
+                          </div>
+
+                      </div>
+                  </div>
+              </div> -->
+          </div>
+
+      </div>
+  </div>
+  <br><br>
+    </div>
+
+    <!--  Profile-->
+
+    <div id="Profile" class="tabcontent mt-10">
+      <div class="dashbrd-cont">
+        <div class="row-db">
+          <div class="col-50">
+            <div class="column-flexProfile shadow">
+              <img src="./images/account.png" alt="Profile" />
+              <p class="mt-3 mb-0">ASINS Package</p>
+              <p><b>Cancelled</b></p>
+
+
+            </div>
+          </div>
+          <div class="col-50">
+            <div class="column-flexProfile shadow">
+              <img src="./images/check.png" alt="check" />
+
+              <p class="mt-3 mb-0">Last payment date</p>
+              <p class="summary"><b>--</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="row-db table-content prf">
+
+
+          <div class="col-50">
+            <div class="column-flexProfile shadow">
+              <div class="hp">
+                <h4>Billing Information</h4>
+              </div>
+              <form action="">
+                <div id="form" class="billing">
+                  <div class="form-group">
+                    <label for="Current">Current Password</label>
+                    <input type="password" style="border: 1px solid #FBBA10;" />
+                  </div>
+
+                 <div class="form-group">
+                    <label for="New">New Password</label>
+                    <input type="password" style="border: 1px solid #FBBA10;" />
+                  </div>
+
+                  <div class="form-group">
+                    <label for="Change">Re-enter password</label>
+                    <input type="password" style="border: 1px solid #FBBA10 ;" />
+                  </div>
+                  
+                   
+                </div>
+              </form>
+            </div>
+          </div>
+          
+          <div class="col-50">
+            <div class="column-flexProfile shadow">
+              <div class="hp">
+                <h4>Billing Information</h4>
+              </div>
+              <form action="">
+                <div id="form" class="billing">
+                  <div class="form-group">
+                    <label for="fname">First Name</label>
+                    <input type="text" style="border: 1px solid #FBBA10 ;" />
+                  </div>
+                  <div class="form-group">
+                    <label for="fname">Last Name</label>
+                    <input type="text" style="border: 1px solid #FBBA10 ;" />
+                  </div>
+                  <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" style="border: 1px solid #FBBA10 ;" />
+                  </div>
+                  <div class="form-group full">
+                    <label for="country">Country</label>
+                    <select id="country" name="country" class="form-control" style="border: 1px solid #FBBA10 ;">
+
+                      <option value="Afghanistan">Afghanistan</option>
+                      <option value="Åland Islands">Åland Islands</option>
+                      <option value="Albania">Albania</option>
+                      <option value="Algeria">Algeria</option>
+                      <option value="American Samoa">American Samoa</option>
+                      <option value="Andorra">Andorra</option>
+                      <option value="Angola">Angola</option>
+                      <option value="Anguilla">Anguilla</option>
+                      <option value="Antarctica">Antarctica</option>
+                      <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                      <option value="Argentina">Argentina</option>
+                      <option value="Armenia">Armenia</option>
+                      <option value="Aruba">Aruba</option>
+                      <option value="Australia">Australia</option>
+                      <option value="Austria">Austria</option>
+                      <option value="Azerbaijan">Azerbaijan</option>
+                      <option value="Bahamas">Bahamas</option>
+                      <option value="Bahrain">Bahrain</option>
+                      <option value="Bangladesh">Bangladesh</option>
+                      <option value="Barbados">Barbados</option>
+                      <option value="Belarus">Belarus</option>
+                      <option value="Belgium">Belgium</option>
+                      <option value="Belize">Belize</option>
+                      <option value="Benin">Benin</option>
+                      <option value="Bermuda">Bermuda</option>
+                      <option value="Bhutan">Bhutan</option>
+                      <option value="Bolivia">Bolivia</option>
+                      <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                      <option value="Botswana">Botswana</option>
+                      <option value="Bouvet Island">Bouvet Island</option>
+                      <option value="Brazil">Brazil</option>
+                      <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                      <option value="Brunei Darussalam">Brunei Darussalam</option>
+                      <option value="Bulgaria">Bulgaria</option>
+                      <option value="Burkina Faso">Burkina Faso</option>
+                      <option value="Burundi">Burundi</option>
+                      <option value="Cambodia">Cambodia</option>
+                      <option value="Cameroon">Cameroon</option>
+                      <option value="Canada">Canada</option>
+                      <option value="Cape Verde">Cape Verde</option>
+                      <option value="Cayman Islands">Cayman Islands</option>
+                      <option value="Central African Republic">Central African Republic</option>
+                      <option value="Chad">Chad</option>
+                      <option value="Chile">Chile</option>
+                      <option value="China">China</option>
+                      <option value="Christmas Island">Christmas Island</option>
+                      <option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+                      <option value="Colombia">Colombia</option>
+                      <option value="Comoros">Comoros</option>
+                      <option value="Congo">Congo</option>
+                      <option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The
+                      </option>
+                      <option value="Cook Islands">Cook Islands</option>
+                      <option value="Costa Rica">Costa Rica</option>
+                      <option value="Cote D'ivoire">Cote D'ivoire</option>
+                      <option value="Croatia">Croatia</option>
+                      <option value="Cuba">Cuba</option>
+                      <option value="Cyprus">Cyprus</option>
+                      <option value="Czech Republic">Czech Republic</option>
+                      <option value="Denmark">Denmark</option>
+                      <option value="Djibouti">Djibouti</option>
+                      <option value="Dominica">Dominica</option>
+                      <option value="Dominican Republic">Dominican Republic</option>
+                      <option value="Ecuador">Ecuador</option>
+                      <option value="Egypt">Egypt</option>
+                      <option value="El Salvador">El Salvador</option>
+                      <option value="Equatorial Guinea">Equatorial Guinea</option>
+                      <option value="Eritrea">Eritrea</option>
+                      <option value="Estonia">Estonia</option>
+                      <option value="Ethiopia">Ethiopia</option>
+                      <option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+                      <option value="Faroe Islands">Faroe Islands</option>
+                      <option value="Fiji">Fiji</option>
+                      <option value="Finland">Finland</option>
+                      <option value="France">France</option>
+                      <option value="French Guiana">French Guiana</option>
+                      <option value="French Polynesia">French Polynesia</option>
+                      <option value="French Southern Territories">French Southern Territories</option>
+                      <option value="Gabon">Gabon</option>
+                      <option value="Gambia">Gambia</option>
+                      <option value="Georgia">Georgia</option>
+                      <option value="Germany">Germany</option>
+                      <option value="Ghana">Ghana</option>
+                      <option value="Gibraltar">Gibraltar</option>
+                      <option value="Greece">Greece</option>
+                      <option value="Greenland">Greenland</option>
+                      <option value="Grenada">Grenada</option>
+                      <option value="Guadeloupe">Guadeloupe</option>
+                      <option value="Guam">Guam</option>
+                      <option value="Guatemala">Guatemala</option>
+                      <option value="Guernsey">Guernsey</option>
+                      <option value="Guinea">Guinea</option>
+                      <option value="Guinea-bissau">Guinea-bissau</option>
+                      <option value="Guyana">Guyana</option>
+                      <option value="Haiti">Haiti</option>
+                      <option value="Heard Island and Mcdonald Islands">Heard Island and Mcdonald Islands</option>
+                      <option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option>
+                      <option value="Honduras">Honduras</option>
+                      <option value="Hong Kong">Hong Kong</option>
+                      <option value="Hungary">Hungary</option>
+                      <option value="Iceland">Iceland</option>
+                      <option value="India">India</option>
+                      <option value="Indonesia">Indonesia</option>
+                      <option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
+                      <option value="Iraq">Iraq</option>
+                      <option value="Ireland">Ireland</option>
+                      <option value="Isle of Man">Isle of Man</option>
+                      <option value="Israel">Israel</option>
+                      <option value="Italy">Italy</option>
+                      <option value="Jamaica">Jamaica</option>
+                      <option value="Japan">Japan</option>
+                      <option value="Jersey">Jersey</option>
+                      <option value="Jordan">Jordan</option>
+                      <option value="Kazakhstan">Kazakhstan</option>
+                      <option value="Kenya">Kenya</option>
+                      <option value="Kiribati">Kiribati</option>
+                      <option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of
+                      </option>
+                      <option value="Korea, Republic of">Korea, Republic of</option>
+                      <option value="Kuwait">Kuwait</option>
+                      <option value="Kyrgyzstan">Kyrgyzstan</option>
+                      <option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option>
+                      <option value="Latvia">Latvia</option>
+                      <option value="Lebanon">Lebanon</option>
+                      <option value="Lesotho">Lesotho</option>
+                      <option value="Liberia">Liberia</option>
+                      <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+                      <option value="Liechtenstein">Liechtenstein</option>
+                      <option value="Lithuania">Lithuania</option>
+                      <option value="Luxembourg">Luxembourg</option>
+                      <option value="Macao">Macao</option>
+                      <option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic
+                        of</option>
+                      <option value="Madagascar">Madagascar</option>
+                      <option value="Malawi">Malawi</option>
+                      <option value="Malaysia">Malaysia</option>
+                      <option value="Maldives">Maldives</option>
+                      <option value="Mali">Mali</option>
+                      <option value="Malta">Malta</option>
+                      <option value="Marshall Islands">Marshall Islands</option>
+                      <option value="Martinique">Martinique</option>
+                      <option value="Mauritania">Mauritania</option>
+                      <option value="Mauritius">Mauritius</option>
+                      <option value="Mayotte">Mayotte</option>
+                      <option value="Mexico">Mexico</option>
+                      <option value="Micronesia, Federated States of">Micronesia, Federated States of</option>
+                      <option value="Moldova, Republic of">Moldova, Republic of</option>
+                      <option value="Monaco">Monaco</option>
+                      <option value="Mongolia">Mongolia</option>
+                      <option value="Montenegro">Montenegro</option>
+                      <option value="Montserrat">Montserrat</option>
+                      <option value="Morocco">Morocco</option>
+                      <option value="Mozambique">Mozambique</option>
+                      <option value="Myanmar">Myanmar</option>
+                      <option value="Namibia">Namibia</option>
+                      <option value="Nauru">Nauru</option>
+                      <option value="Nepal">Nepal</option>
+                      <option value="Netherlands">Netherlands</option>
+                      <option value="Netherlands Antilles">Netherlands Antilles</option>
+                      <option value="New Caledonia">New Caledonia</option>
+                      <option value="New Zealand">New Zealand</option>
+                      <option value="Nicaragua">Nicaragua</option>
+                      <option value="Niger">Niger</option>
+                      <option value="Nigeria">Nigeria</option>
+                      <option value="Niue">Niue</option>
+                      <option value="Norfolk Island">Norfolk Island</option>
+                      <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+                      <option value="Norway">Norway</option>
+                      <option value="Oman">Oman</option>
+                      <option value="Pakistan">Pakistan</option>
+                      <option value="Palau">Palau</option>
+                      <option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option>
+                      <option value="Panama">Panama</option>
+                      <option value="Papua New Guinea">Papua New Guinea</option>
+                      <option value="Paraguay">Paraguay</option>
+                      <option value="Peru">Peru</option>
+                      <option value="Philippines">Philippines</option>
+                      <option value="Pitcairn">Pitcairn</option>
+                      <option value="Poland">Poland</option>
+                      <option value="Portugal">Portugal</option>
+                      <option value="Puerto Rico">Puerto Rico</option>
+                      <option value="Qatar">Qatar</option>
+                      <option value="Reunion">Reunion</option>
+                      <option value="Romania">Romania</option>
+                      <option value="Russian Federation">Russian Federation</option>
+                      <option value="Rwanda">Rwanda</option>
+                      <option value="Saint Helena">Saint Helena</option>
+                      <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                      <option value="Saint Lucia">Saint Lucia</option>
+                      <option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+                      <option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines</option>
+                      <option value="Samoa">Samoa</option>
+                      <option value="San Marino">San Marino</option>
+                      <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                      <option value="Saudi Arabia">Saudi Arabia</option>
+                      <option value="Senegal">Senegal</option>
+                      <option value="Serbia">Serbia</option>
+                      <option value="Seychelles">Seychelles</option>
+                      <option value="Sierra Leone">Sierra Leone</option>
+                      <option value="Singapore">Singapore</option>
+                      <option value="Slovakia">Slovakia</option>
+                      <option value="Slovenia">Slovenia</option>
+                      <option value="Solomon Islands">Solomon Islands</option>
+                      <option value="Somalia">Somalia</option>
+                      <option value="South Africa">South Africa</option>
+                      <option value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich
+                        Islands</option>
+                      <option value="Spain">Spain</option>
+                      <option value="Sri Lanka">Sri Lanka</option>
+                      <option value="Sudan">Sudan</option>
+                      <option value="Suriname">Suriname</option>
+                      <option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+                      <option value="Swaziland">Swaziland</option>
+                      <option value="Sweden">Sweden</option>
+                      <option value="Switzerland">Switzerland</option>
+                      <option value="Syrian Arab Republic">Syrian Arab Republic</option>
+                      <option value="Taiwan">Taiwan</option>
+                      <option value="Tajikistan">Tajikistan</option>
+                      <option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+                      <option value="Thailand">Thailand</option>
+                      <option value="Timor-leste">Timor-leste</option>
+                      <option value="Togo">Togo</option>
+                      <option value="Tokelau">Tokelau</option>
+                      <option value="Tonga">Tonga</option>
+                      <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                      <option value="Tunisia">Tunisia</option>
+                      <option value="Turkey">Turkey</option>
+                      <option value="Turkmenistan">Turkmenistan</option>
+                      <option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+                      <option value="Tuvalu">Tuvalu</option>
+                      <option value="Uganda">Uganda</option>
+                      <option value="Ukraine">Ukraine</option>
+                      <option value="United Arab Emirates">United Arab Emirates</option>
+                      <option value="United Kingdom">United Kingdom</option>
+                      <option value="United States">United States</option>
+                      <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+                      <option value="Uruguay">Uruguay</option>
+                      <option value="Uzbekistan">Uzbekistan</option>
+                      <option value="Vanuatu">Vanuatu</option>
+                      <option value="Venezuela">Venezuela</option>
+                      <option value="Viet Nam">Viet Nam</option>
+                      <option value="Virgin Islands, British">Virgin Islands, British</option>
+                      <option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
+                      <option value="Wallis and Futuna">Wallis and Futuna</option>
+                      <option value="Western Sahara">Western Sahara</option>
+                      <option value="Yemen">Yemen</option>
+                      <option value="Zambia">Zambia</option>
+                      <option value="Zimbabwe">Zimbabwe</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="address">Address</label>
+                    <input type="text" style="border: 1px solid #FBBA10 ;" />
+                  </div>
+                  <div class="form-group">
+                    <label for="zip">Zip code</label>
+                    <input type="text" style="border: 1px solid #FBBA10 ;" />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row-db text-center">
+          <div class="form-group">
+            <button class="sr6" style="margin-left:20px ;" onclick="SaveFunction()">Save</button>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+<br>
+
+    <!-- Affiliate -->
+    <div id="Affiliate" class="tabcontent  box-root">
+      <div class="container register">
+        <div class="row">
+          <div class="col-md-3 register-left d-none d-md-block">
+            <i class="fa-solid fa-user-group" style="margin-top:80px ;"></i>
+            <h4>Affiliate Program</h4>
+            <p class="text-white">You are few second away from Your affiliate Link...</p>
+          </div>
+          <div class="col-md-9">
+            <div class="register-right register-form">
+              <form action="#" id='form1'>
+                <div id="form">
+                  <div class="col-md-12">
+                    <label>Affiliate link</label>
+                    <div class="input-group">
+                      <input type="text" id="affiliate-link" class="form-control input-text" disabled="disabled"
+                        value="Bolt.Asins" />
+                      <span class="input-group-btn">
+                        <button id="copy-affiliate-link" type="button" class="btn btn-info btn-fill btn-input copy-btn">
+                          Copy
+                        </button>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+
+                    <label>Paid</label>
+                    <input id="paid" type="text" disabled="disabled" value="$0.00" class="form-control input-text" />
+                  </div>
+                  <div class="col-md-12">
+                    <label>Unpaid</label>
+                    <input id="unpaid" type="text" disabled="disabled" value="$0.00" class="form-control input-text" />
+                  </div>
+                  <div class="col-md-12">
+                    <button class="sr5" id="request-payment">
+                      Request payment
+                    </button>
+                  </div>
+                </div>
+              </form>
+              <div class="col-md-12">
+                <div class="content table-responsive table-full-width">
+                  <table class="table table-hover table-striped">
+                    <thead class="table-header">
+                      <tr>
+                        <th>DATE</th>
+                        <th>REFERRAL</th>
+                        <th>PLAN</th>
+                        <th>AMOUNT</th>
+                        <th class="text-center">PAID</th>
+                      </tr>
+                    </thead>
+                    <tbody></tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="container pb-3 bg-white">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="affiliate-title">How Does Affiliate Works?</h1>
+            <p class="affiliate-description">
+              Help us spread the word about Bolt ASINS and get 100%
+              affiliate commision for every user subscribed to a plan
+              through your link.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="column-flex3 shadow" style= "background-color: #FBBA10;">
+
+                <div class="card-body">
+                  <h3>Share</h3>
+                  <p class="card-text"> Copy your unique affiliate link and send it to your
+                    friend.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="column-flex3 shadow" style=" background-color: #FBBA10;">
+                <div class="card-body">
+                  <h3>Benifits</h3>
+                  <p class="card-text"> After sing up, customer information will show up in the dashboard.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="column-flex3 shadow" style=" background-color: #FBBA10;">
+                <div class="card-body">
+                  <h3>Earn</h3>
+                  <p class="card-text"> Earn one-time payment equal to the value of the package the user subscribed to..
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <!-- Payment History -->
+    <div id="History" class="tabcontent wrapper rounded p-2" style="margin-top:-35px;" >
+      <div class="history-container">
+          <div class="ba32">
+              <h2 class="ba-typography">
+                  Payment History
+              </h2>
+          </div>
+          <div id="Table" class="table-responsive mt-3">
+              <table class="table table-borderless">
+                  <thead>
+                      <tr>
+                          <th scope="col">Plan</th>
+                          <th scope="col" class="text-right">Amount</th>
+                          <th scope="col">Date</th>
+                          <th scope="col" class="text-right">Invoice</th>
+                      </tr>
+                  </thead>
+                  <hr>
+                  <tbody>
+                      <tr>
+                          <td scope="row"> Coorg Trip </td>
+                          <td class="d-flex justify-content-center align-items-center"> 52.9$ </td>
+                          <td>12 Jul 2020, 12:30 PM</td>
+                          <td>
+                              <a href="./images/PRICING TABLES - MONTHLY.png" download="PRICING">
+                                  <img src="./images/PRICING TABLES - MONTHLY.png" alt="PRICING">
+                              </a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td scope="row"> Hotel Leela Palace </td>
+
+
+                          <td class="d-flex justify-content-center  align-items-center"> 18.9$ </td>
+                          <td>11 Jul 2020, 2:00 PM</td>
+                          <td>
+                              <a href="./images/PRICING TABLES - MONTHLY.png" download="PRICING">
+                                  <img src="./images/PRICING TABLES - MONTHLY.png" alt="PRICING">
+                              </a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td scope="row">Monthly Salary </td>
+
+                          <td class="d-flex justify-content-center align-items-center"> 9,765.00$ </td>
+                          <td>10 Jul 2020, 8:30 PM</td>
+                          <td>
+                              <a href="./images/PRICING TABLES - MONTHLY.png" download="PRICING">
+                                  <img src="./images/PRICING TABLES - MONTHLY.png" alt="PRICING">
+                              </a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td scope="row"> Xbox Purchase </td>
+
+                          <td class="d-flex justify-content-center align-items-center">198.90$ </td>
+                          <td>12 May 2020, 4:30 PM</td>
+                          <td>
+                              <a href="./images/PRICING TABLES - MONTHLY.png" download="PRICING">
+                                  <img src="./images/PRICING TABLES - MONTHLY.png" alt="PRICING">
+                              </a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td scope="row"> Dinner Party </td>
+
+
+                          <td class="d-flex border-none justify-content-center align-items-center"> 12.90$ </td>
+                          <td>11 May 2020, 5:30 PM</td>
+                          <td>
+                              <a href="./images/PRICING TABLES - MONTHLY.png" download="PRICING">
+                                  <img src="./images/PRICING TABLES - MONTHLY.png" alt="PRICING">
+                              </a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td scope="row">Nandini Hills Ride </td>
+
+                          <td class="d-flex justify-content-center align-items-center"> 97.9$ </td>
+                          <td>10 May 2020, 01:30 PM</td>
+                          <td>
+                              <a href="./images/PRICING TABLES - MONTHLY.png" download="PRICING">
+                                  <img src="./images/PRICING TABLES - MONTHLY.png" alt="PRICING">
+                              </a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td scope="row">Goa Beach Party </td>
+
+                          <td class="d-flex justify-content-center align-items-center"> 97.9$ </td>
+                          <td>09 May 2020, 01:30 PM</td>
+                          <td>
+                              <a href="./images/PRICING TABLES - MONTHLY.png" download="PRICING">
+                                  <img src="./images/PRICING TABLES - MONTHLY.png" alt="PRICING">
+                              </a>
+                          </td>
+                      </tr>
+
+                      <tr>
+                        <td scope="row">Goa Beach Party </td>
+
+                        <td class="d-flex justify-content-center align-items-center"> 97.9$ </td>
+                        <td>09 May 2020, 01:30 PM</td>
+                        <td>
+                            <a href="./images/PRICING TABLES - MONTHLY.png" download="PRICING">
+                                <img src="./images/PRICING TABLES - MONTHLY.png" alt="PRICING">
+                            </a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                      <td scope="row">Nandini Hills Ride </td>
+
+                      <td class="d-flex justify-content-center align-items-center"> 97.9$ </td>
+                      <td>10 May 2020, 01:30 PM</td>
+                      <td>
+                          <a href="./images/PRICING TABLES - MONTHLY.png" download="PRICING">
+                              <img src="./images/PRICING TABLES - MONTHLY.png" alt="PRICING">
+                          </a>
+                      </td>
+                  </tr>
+
+                    <tr>
+                      <td scope="row">Goa Beach Party </td>
+
+                      <td class="d-flex justify-content-center align-items-center"> 97.9$ </td>
+                      <td>09 May 2020, 01:30 PM</td>
+                      <td>
+                          <a href="./images/PRICING TABLES - MONTHLY.png" download="PRICING">
+                              <img src="./images/PRICING TABLES - MONTHLY.png" alt="PRICING">
+                          </a>
+                      </td>
+                  </tr>
+                  </tbody>
+              </table>
+          </div>
+          <div class="d-flex ml-2 justify-content-between align-items-center results"> <span class="pl-md-3">Showing<b> 1-7
+                      0f 200 </b> trasactions</span>
+              <div class="pt-3">
+                  <nav aria-label="Page navigation example">
+                      <ul class="pagination">
+                          <li class="page-item disabled"> <a class="page-link" href="#" aria-label="Previous"> <span
+                                      aria-hidden="true">&lt;</span> </a> </li>
+                          <li class="page-item"> <a class="page-link" href="#" aria-label="Next"> <span
+                                      aria-hidden="true">&gt;</span> </a> </li>
+                      </ul>
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </div>
+    <!-- eBay Competitor ASINS -->
+    <div id="Seller" class="tabcontent box-root container register" style="position: relative !important;">
+      <div class="row">
+        <div class="col-md-3 register-left d-none d-md-block">
+          <i class="fa-solid fa-address-card"></i>
+          <h4>eBay Competitors ASINS</h4>
+          <p class="text-white">You are few second away from Research...</p>
+        </div>
+
+        <div class="col-md-9">
+
+          <div class="row">
+            <div class="col-10 col-sm-11 p-0">
+
+              <div class="register-right register-form">
+                <form action="#" id='form1'>
+                  <div id="form">
+                    
+
+                    <div class="col-md-12 d-flex align-items-center justify-content-start ">
+                        <div><label class="m-0">Asian Credits <i style="color: #FBBA10;" class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top"
+                          title="  lorem ipsum dolor sit amet lorem ipsum"></i>&nbsp; <b>:</b> </label></div>
+                        
+                        <div class=" ">
+                          <span  class="creditbtn">100</span>
+                      </div>                         
+                        </div>
+                    <div class="col-md-12">
+                      <div class="form-group mprice">
+                        <label for="seller-input"> eBay Competitors(*)
+                          <i style="color: #FBBA10;" class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top"
+                          title="  lorem ipsum dolor sit amet lorem ipsum"></i>
+                        </label>
+                        <textarea name="seller-area" id="seller-input" cols="30" rows="03"></textarea>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label for="New">Sold in the last X days (Optional)  <i style="color: #FBBA10;" class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top"
+                          title="  lorem ipsum dolor sit amet lorem ipsum"></i></label>
+                        <select id="xdays" class="1-30"></select>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+
+                      <div class="form-group">
+                        <label for="New">Minimum X sold (Optional) <i style="color: #FBBA10;" class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top"
+                          title="  lorem ipsum dolor sit amet lorem ipsum"></i></label>
+                        <select id="xdays" class="1-30"></select>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group mprice">
+                        <div class="mm">
+                          <input type="checkbox" id="minCheck" onclick="myFunction()" />
+                          <label for="min">Minimum Price (Optional)  <i style="color: #FBBA10;" class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="  lorem ipsum dolor sit amet lorem ipsum"></i></label>
+                        </div>
+                        <div class="minput">
+                          <input id="inminchecked" type="number" name="numb" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group mprice">
+                        <div class="mm">
+                          <input type="checkbox" id="maxCheck" onclick="mymaxFunction()" />
+                          <label for="min">Maximum Price (Optional) <i style="color: #FBBA10;" class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="  lorem ipsum dolor sit amet lorem ipsum"></i>
+                          </label>
+                        </div>
+
+                        <div class="minput">
+                          <input id="inmaxchecked" type="number" name="numb" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <button class="sr">Extract</button>
+                        <small>This will charge you 1 ASIN per successful match.</small>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                <div class="col-md-12">
+                  <div class="mujHistory mt-4">
+                    <h6 class="summary">History</h6>
+                    <hr class="mt-0">
+
+                    <table class="table table-responsive mt-3 text-center">
+                      <thead>
+                        <tr>
+
+                          <th scope="col">Date</th>
+                          <th scope="col">ASINS</th>
+                          <th scope="col">CSV file</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+
+                          <td>
+                            <p>05-02-2020</p>
+                          </td>
+                          <td><span class="asinsNo">1234675643</span> </td>
+                          <td>
+                            <a class="myAncor" href="data.csv" download="data.csv"><i
+                                class="fa-solid fa-file-csv"></i></a>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <p>05-02-2020</p>
+                          </td>
+                          <td><span class="asinsNo">1234675643</span> </td>
+                          <td>
+                            <a class="myAncor" href="data.csv" download="data.csv"><i
+                                class="fa-solid fa-file-csv"></i></a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>05-02-2020</p>
+                          </td>
+                          <td><span class="asinsNo">1234675643</span> </td>
+                          <td>
+                            <a class="myAncor" href="data.csv" download="data.csv"><i
+                                class="fa-solid fa-file-csv"></i></a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="col-2 col-sm-1">
+
+
+
+              <img class="sideImg img-fluid" src="./images/Screenshot_1.png" alt="">
+
+              <img class="sideImg img-fluid" src="./images/Screenshot_2.png" alt="">
+
+
+
+              <img class="sideImg img-fluid" src="./images/Screenshot_4.png" alt="">
+
+              <img class="sideImg img-fluid" src="./images/Screenshot_5.png" alt="">
+
+              <img class="sideImg img-fluid" src="./images/Screenshot_6.png" alt="">
+
+              <img class="sideImg img-fluid" src="./images/Screenshot_6.png" alt="">
+
+              <img class="sideImg img-fluid" src="./images/Screenshot_1.png" alt="">
+
+              <img class="sideImg img-fluid" src="./images/Screenshot_1.png" alt="">
+
+              <img class="sideImg img-fluid" src="./images/Screenshot_2.png" alt="">
+
+
+
+              <img class="sideImg img-fluid" src="./images/Screenshot_1.png" alt="">
+
+
+
+
+
+
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+
+
+      </div>
+    </div>
+    <!-- Discounts&Coupons ASINS -->
+    <div id="Bulk" class="tabcontent box-root container register">
+      <div class="row">
+        <div class="col-md-3 register-left d-none d-md-block">
+          <i class="fa fa-search"></i>
+          <h4>Discounts&Coupons ASINS</h4>
+          <p class="text-white">You are few second away from Research...</p>
+        </div>
+        <div class="col-md-9">
+
+          <div class="row">
+            <div class="col-10 col-sm-11 p-0">
+
+              <div class="register-right register-form">
+                <form action="#" id='form1'>
+                  <div id="form">
+                    <div class="col-md-12 d-flex justify-content-start align-items-center">
+
+                      <div class="d-flex justify-content-start align-items-center  "> 
+                      <div><label class="m-0">Asian Credits <i style="color: #FBBA10;" class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="  lorem ipsum dolor sit amet lorem ipsum"></i>&nbsp; <b>:</b> </label></div>
+                      
+                      <div class=" ">
+                        <span class="creditbtn">100</span>
+                      </div>
+                    </div>
+                      </div>
+
+
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <label for="Current">Requested Amount (*) <i style="color: #FBBA10;" class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top"
+                          title="  lorem ipsum dolor sit amet lorem ipsum"></i></label>
+                        <input type="text" />
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group mprice">
+                        <div class="mm">
+                          <input type="checkbox" id="mStar" onclick="myStars()" />
+                          <label for="min">Price Filter (Optional) <i style="color: #FBBA10;" class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top"
+                            title="  lorem ipsum dolor sit amet lorem ipsum"></i></label>
+                        </div>
+                        <div class="minput">
+                          <select id="instar">
+                            <option value="1">0.1$ - 25$</option>
+                            <option value="2">25$ - 50$</option>
+                            <option value="3">50$ - 100$</option>
+                            <option value="4">100$ - 200$</option>
+                            <option value="4">200$ - Above</option>
+    
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <button class="sr">Extract</button>
+                        <small>This will charge you 1 ASIN per successful match.</small>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="mujHistory mt-4">
+                        <h6 class="summary">History</h6>
+                        <hr class="mt-0">
+        
+                        <table class="table table-responsive mt-3 text-center">
+                          <thead>
+                            <tr>
+        
+                              <th scope="col">Date</th>
+                              <th scope="col">ASINS</th>
+                              <th scope="col">CSV File</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+        
+                              <td>
+                                <p>05-02-2020</p>
+                              </td>
+                              <td><span class="asinsNo">1234675643</span> </td>
+                              <td>
+                                <a class="myAncor" href="data.csv" download="data.csv"><i class="fa-solid fa-file-csv"></i></a>
+                              </td>
+                            </tr>
+        
+                            <tr>
+                              <td>
+                                <p>05-02-2020</p>
+                              </td>
+                              <td><span class="asinsNo">1234675643</span> </td>
+                              <td>
+                                <a class="myAncor" href="data.csv" download="data.csv"><i class="fa-solid fa-file-csv"></i></a>
+                              </td>
+                            </tr>
+        
+        
+                            <tr>
+                              <td>
+                                <p>05-02-2020</p>
+                              </td>
+                              <td><span class="asinsNo">1234675643</span> </td>
+                              <td>
+                                <a class="myAncor" href="data.csv" download="data.csv"><i class="fa-solid fa-file-csv"></i></a>
+                              </td>
+                            </tr>
+        
+        
+                          </tbody>
+                        </table>
+        
+        
+                      </div>
+                    </div>
+      
+                  </div>
+                  </form>
+      </div>
+    </div>
+    <div class="col-2 col-sm-1 sideBarImages">
+
+
+
+      <img class="sideImg img-fluid" src="./images/Screenshot_1.png" alt="">
+
+      <img class="sideImg img-fluid" src="./images/Screenshot_2.png" alt="">
+
+
+
+      <img class="sideImg img-fluid" src="./images/Screenshot_4.png" alt="">
+
+      <img class="sideImg img-fluid" src="./images/Screenshot_5.png" alt="">
+
+      <img class="sideImg img-fluid" src="./images/Screenshot_6.png" alt="">
+
+      <img class="sideImg img-fluid" src="./images/Screenshot_6.png" alt="">
+
+      <img class="sideImg img-fluid" src="./images/Screenshot_1.png" alt="">
+
+      <img class="sideImg img-fluid" src="./images/Screenshot_1.png" alt="">
+
+      <img class="sideImg img-fluid" src="./images/Screenshot_2.png" alt="">
+
+
+
+      <img class="sideImg img-fluid" src="./images/Screenshot_1.png" alt="">
+
+
+
+
+
+
+    </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- VCC -->
+    <div id="Vcc" class="tabcontent box-root container register">
+      <div class="row">
+        <div class="col-md-3 register-left d-none d-md-block">
+          <i class="fa-solid fa-credit-card"></i>
+          <h4>Virtual Credit Cards</h4>
+          <p class="text-white">You are few second away from Research...</p>
+        </div>
+        <div class="col-md-9">
+          <div class="register-right register-form">
+            <form action="#" id='form1'>
+              <div id="form">
+                <div class="col-md-12">
+                  <div class="form-group mprice">
+                    <div>
+                      <label for="vcc">Type Of VCC  (*) <i style="color: #FBBA10;" class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="  lorem ipsum dolor sit amet lorem ipsum"></i></label>
+                    </div>
+                    <div class="minput">
+                      <select id="selectVcc" onchange="myTot()">
+                        <option value="eBay">eBay VCC</option>
+                        <option value="vccbalance">
+                          PayPal - Available Soon
+                        </option>
+                        <option value="paypalvcc">
+                          Canva - Available Soon
+                        </option>
+                        <option value="paypalvcc">
+                          Balance - Available Soon
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+
+                  <div class="form-group mprice">
+                    <div class="mb-3">
+                      <label for="inputProductPrice" class="form-label">Quantity (*) <i style="color: #FBBA10;" class="fa-solid fa-circle-info" data-bs-toggle="tooltip" data-bs-placement="top"
+                        title="  lorem ipsum dolor sit amet lorem ipsum"></i></label>
+                      <input type="text" class="form-control" id="inputProductPrice" oninput="myTot()" />
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="checkoutCard" id="checkoutCard">
+
+
+                    <!-- <div class="paypalImg">
+              <img src="./images/paypal.svg" alt="">
+            </div> -->
+                    <div class="summaryCont d-flex justify-content-between mt-2">
+                      <p class="summary mb-1">Summary</p>
+
+
+                      <p class="mb-1 summary">Quantity</p>
+                      <p class="mb-1 summary">Price</p>
+                    </div>
+
+                    <div class="d-flex justify-content-between pt-4 pb-1">
+                      <p class="mb-1" id="vccType"></p>
+                      <p class="mb-1" id="amount"></p>
+                      <p class="mb-1"> <span id="vccPrice"></span> $</p>
+                    </div>
+                    <hr class="m-0" style="color: #f8e7b2; opacity: 0.5;">
+                    <div class="d-flex justify-content-between py-1">
+                      <p class="mb-1  ps-4" style="margin-left: 73px;"> </p>
+                      <!-- <p class="mb-1 text-end">3</p> -->
+                      <!-- <p class="mb-1 " ><span id="selectePrice"></span> $</p> -->
+                    </div>
+
+                    <div class="summaryGap pt-4"></div>
+                    <div class="d-flex justify-content-between py-1">
+                      <p class="summary">Total</p>
+                      <p class="mb-1" style="margin-left: 68px;" id="amount1"></p>
+                      <p class="summary"><span id="totalPrice">0</span>$</p>
+                    </div>
+
+
+
+                  </div>
+                </div>
+                <div class="col-md-12">
+
+                  <div class="form-group">
+                    <button class="sr" style="margin-top:0;">
+                      <i class="fa fa-paypal" aria-hidden="true"></i> Proceed
+                    </button>
+                    <small>If you require further assistance please contact us via our business email
+                      BOLTASINS@GMAIL.COM</small>
+                  </div>
+                </div>
+            </form>
+            <div class="col-md-12">
+              <div class="mujHistory mt-4">
+                <h6 class="summary">History</h6>
+                <hr class="mt-0">
+
+                <table class="table table-responsive mt-3 text-center">
+                  <thead>
+                    <tr>
+
+                      <th scope="col">DATE</th>
+                      <th scope="col">TYPE</th>
+                      <th scope="col">CSV File</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+
+                      <td>
+                        <p>05-02-2020</p>
+                      </td>
+                      <td><span class="asinsNo"> PayPal VCC - Available Soon</span> </td>
+                      <td>
+                        <a class="myAncor" href="data.csv" download="data.csv"><i class="fa-solid fa-file-csv"></i></a>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <p>05-02-2020</p>
+                      </td>
+                      <td><span class="asinsNo">eBay VCC</span> </td>
+                      <td>
+                        <a class="myAncor" href="data.csv" download="data.csv"><i class="fa-solid fa-file-csv"></i></a>
+                      </td>
+                    </tr>
+
+
+                    <tr>
+                      <td>
+                        <p>05-02-2020</p>
+                      </td>
+                      <td><span class="asinsNo">eBay VCC</span> </td>
+                      <td>
+                        <a class="myAncor" href="data.csv" download="data.csv"><i class="fa-solid fa-file-csv"></i></a>
+                      </td>
+                    </tr>
+
+
+                  </tbody>
+                </table>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!--Support Ticket -->
+  </div>
+  <div id="Tickets" class="tabcontent box-root container-fluid">
+    <div class="row-db">
+      <h3><i class="fa-solid fa-headphones-simple" style="margin-right:5px;"></i>Support Tickets</h3>
+    </div>
+    <div class="row-db">
+      <div class="col-md-2">
+        <div class="d-flex has-search">
+          <input type="text" class="form-control" placeholder="All Accounts">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="input-group has-search">
+          <input type="text" class="form-control" placeholder="Search...">
+          <div class="input-group-append">
+            <button class="btn btn-secondary" style="background-color: #FBBA10; border: none;">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row-db">
+      <div class="col-md-12" style="text-align: right;">
+        <button class="sr3"><i class="fa-solid fa-headphones-simple" style="margin-right:5px;"></i>Open a
+          Ticket</button>
+      </div>
+    </div>
+
+    <div class="row-db">
+      <div class="col-md-12 pb-5">
+        <div class="table-responsive" style="overflow-x: scroll;">
+          <table class="table table-bordered table-hover mb-0">
+            <thead class="tablehead">
+              <tr>
+                <th>Ticket #</th>
+                <th>Subjact</th>
+                <th>Last Update</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody class="tablebody">
+              <tr>
+                <td>74137</td>
+                <td>Order# 180-overweight</td>
+               
+                <td>August 08, 2017</td>
+                <td><button class="sr2">Resolved</button></td>
+
+              </tr>
+              <tr>
+                <td>74137</td>
+                <td>Order# 180-overweight</td>
+               
+                <td>August 08, 2017</td>
+                <td><button class="sr2">Resolved</button></td>
+              </tr>
+              <tr>
+                <td>74137</td>
+                <td>Order# 180-overweight</td>
+               
+                <td>August 08, 2017</td>
+                <td><button class="sr2">Resolved</button></td>
+              </tr>
+              <tr>
+                <td>74137</td>
+                <td>Order# 180-overweight</td>
+               
+                <td>August 08, 2017</td>
+                <td><button class="sr2">Resolved</button></td>
+              </tr>
+              <tr>
+                <td>74137</td>
+                <td>Order# 180-overweight</td>
+                <td>rashbah-92</td>
+              >
+                <td><button class="sr2">Resolved</button></td>
+              </tr>
+              <tr>
+                <td>74137</td>
+                <td>Order# 180-overweight</td>
+                <td>rashbah-92</td>
+            
+                <td><button class="sr2">Resolved</button></td>
+              </tr>
+              <tr>
+                <td>74137</td>
+                <td>Order# 180-overweight</td>
+                <td>August 08, 2017</td>
+                <td><button class="sr2">Resolved</button></td>
+              </tr>
+              <tr>
+                <td>74137</td>
+                <td>Order# 180-overweight</td>
+               
+                <td>August 08, 2017</td>
+                <td><button class="sr2">Resolved</button></td>
+              </tr>
+              <tr>
+                <td>74137</td>
+                <td>Order# 180-overweight</td>
+            
+                <td>August 08, 2017</td>
+                <td><button class="sr2">Resolved</button></td>
+              </tr>
+              <tr>
+                <td>74137</td>
+                <td>Order# 180-overweight</td>
+                
+                <td>August 08, 2017</td>
+                <td><button class="sr2">Resolved</button></td>
+              </tr>
+              <tr>
+                <td>74137</td>
+                <td>Order# 180-overweight</td>
+                <td>August 08, 2017</td>
+                <td><button class="sr2">Resolved</button></td>
+              </tr>
+              <tr>
+                <td>74137</td>
+                <td>Order# 180-overweight</td>
+                <td>August 08, 2017</td>
+                <td><button class="sr2">Resolved</button></td>
+              </tr>
+
+            </tbody>
+          </table>
+
+        </div>
+      </div>
+    </div>
+    <div class="row-db">
+      <button class="sr4"><i class="fa-solid fa-arrow-up" style="margin-right:5px;"></i>Back to Top</button>
+    </div>
+  </div>
+
+
+
+  <!-- Subtotal -->
+  <script>
+    function myTot() {
+      let x = 2.99;
+      var price = document.getElementById("inputProductPrice").value;
+      var text = $("#selectVcc option:selected").text();
+
+      console.log("text is", text)
+      var numtotal = price * x;
+
+      var total = numtotal;
+      let n = total.toFixed(2);
+
+      document.getElementById("vccPrice").innerHTML = x;
+      document.getElementById("amount").innerHTML = price;
+      document.getElementById("amount1").innerHTML = price;
+      document.getElementById("vccType").innerHTML = text;
+      // document.getElementById("selectePrice").innerHTML = x;
+      document.getElementById("totalPrice").innerHTML = n;
+
+    }
+
+  </script>
+
+
+  <script>
+
+  </script>
+  <!-- old -->
+  <script>
+    $(function () {
+      var $select = $(".1-30");
+      for (i = 1; i <= 30; i++) {
+        $select.append($("<option></option>").val(i).html(i));
+      }
+    });
+  </script>
+  <script>
+
+    function SaveFunction() {
+      alert("Profile is Saved")
+    }
+    function myFunction() {
+      var minCheck = document.getElementById("minCheck");
+      var inputchk = document.getElementById("inminchecked");
+      if (minCheck.checked == true) {
+        inminchecked.style.display = "block";
+      } else {
+        inminchecked.style.display = "none";
+      }
+    }
+  </script>
+
+  <script>
+    function mymaxFunction() {
+      var maxCheck = document.getElementById("maxCheck");
+      var inputchk = document.getElementById("inmaxchecked");
+      if (maxCheck.checked == true) {
+        inmaxchecked.style.display = "block";
+      } else {
+        inmaxchecked.style.display = "none";
+      }
+    }
+  </script>
+
+  <script>
+    function myPrice() {
+      var minCheck = document.getElementById("mPrice");
+      var inputchk = document.getElementById("inprice");
+      if (minCheck.checked == true) {
+        inprice.style.display = "block";
+      } else {
+        inprice.style.display = "none";
+      }
+    }
+  </script>
+  <script>
+    function myPricemx() {
+      var minCheck = document.getElementById("mxPrice");
+      var inputchk = document.getElementById("inmxprice");
+      if (minCheck.checked == true) {
+        inmxprice.style.display = "block";
+      } else {
+        inmxprice.style.display = "none";
+      }
+    }
+  </script>
+
+  <script>
+    function myStars() {
+      var minCheck = document.getElementById("mStar");
+      var inputchk = document.getElementById("instar");
+      if (minCheck.checked == true) {
+        instar.style.display = "block";
+      } else {
+        instar.style.display = "none";
+      }
+    }
+  </script>
+  <script>
+    function myPayment() {
+      var element = document.getElementById("priceSection");
+      element.classList.add("hide")
+
+      var element1 = document.getElementById("checkoutCard");
+      element1.classList.remove("hide")
+    }
+
+    function Edit() {
+      var element = document.getElementById("priceSection");
+      element.classList.remove("hide")
+
+      var element1 = document.getElementById("checkoutCard");
+      element1.classList.add("hide")
+    }
+    function purchaseBtn() {
+      alert("are you sure")
+    }
+  </script>
+
+  <!-- <script>
+            function maxdiscount() {
+                var minCheck = document.getElementById("maxDiscount");
+                var inputchk = document.getElementById("inmaxdiscount");
+                if (minCheck.checked == true){
+                inminchecked.style.display = "block";
+                } else {
+                inminchecked.style.display = "none";
+                }
+            }
+        </script> -->
+  <script>
+    function dashBrd(evt, boardName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(boardName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+  </script>
+
+  <script src="./js/script3.js"></script>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js">
+  </script>
+
+  <script src="./js/chart1.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script src="https://kit.fontawesome.com/38860492c4.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

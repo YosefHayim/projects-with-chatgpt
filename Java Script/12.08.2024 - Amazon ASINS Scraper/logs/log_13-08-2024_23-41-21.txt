@@ -1,0 +1,9 @@
+2024-08-13T20:41:21.448Z - Script started
+2024-08-13T20:41:23.609Z - Captcha popped up...
+2024-08-13T20:41:23.617Z - Captcha image URL: https://images-na.ssl-images-amazon.com/captcha/bysppkyq/Captcha_pxvivrppou.jpg
+2024-08-13T20:41:26.536Z - 25.80907
+2024-08-13T20:41:31.393Z - Captcha Result: pmnjju
+2024-08-13T20:41:34.861Z - Solved Captcha
+2024-08-13T20:41:53.436Z - An error occurred: Node is either not clickable or not an Element
+2024-08-13T20:41:53.437Z - searchTerm was not defined; ASINs were not saved.
+2024-08-13T20:41:53.437Z - Script finished

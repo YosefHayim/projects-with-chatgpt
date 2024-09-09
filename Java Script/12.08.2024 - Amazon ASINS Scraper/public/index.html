@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon ASIN Scraper</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Amazon ASIN Scraper</h1>
+
+        <!-- Search Term Input -->
+        <div id="search-term-container">
+            <p>Please enter the search term:</p>
+            <input type="text" id="search-term" required>
+            <button id="submit-search-term">Submit</button>
+        </div>
+
+        <!-- Filter Questions -->
+        <div id="filter-questions" style="display: none;">
+            <!-- Question 1 -->
+            <div class="filter-question" id="question-1">
+                <p>Would you like ASIN products with 4+ stars?</p>
+                <button class="response-button" data-question="1" data-response="y">Yes</button>
+                <button class="response-button" data-question="1" data-response="n">No</button>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="filter-question" id="question-2" style="display: none;">
+                <p>Would you like a specific price range?</p>
+                <button class="response-button" data-question="2" data-response="y">Yes</button>
+                <button class="response-button" data-question="2" data-response="n">No</button>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="filter-question" id="question-3" style="display: none;">
+                <p>Want ASINS with most of discounts?</p>
+                <button class="response-button" data-question="3" data-response="y">Yes</button>
+                <button class="response-button" data-question="3" data-response="n">No</button>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="filter-question" id="question-4" style="display: none;">
+                <p>Want ASINS DEALS?</p>
+                <button class="response-button" data-question="4" data-response="y">Yes</button>
+                <button class="response-button" data-question="4" data-response="n">No</button>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="filter-question" id="question-5" style="display: none;">
+                <p>Want COUPON ASINS?</p>
+                <button class="response-button" data-question="5" data-response="y">Yes</button>
+                <button class="response-button" data-question="5" data-response="n">No</button>
+            </div>
+        </div>
+
+        <p id="status"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

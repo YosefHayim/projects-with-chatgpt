@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@infosimples/node_two_captcha": "^1.2.0",
+    "express": "^4.19.2",
+    "puppeteer": "^23.0.2"
+  }
+}
