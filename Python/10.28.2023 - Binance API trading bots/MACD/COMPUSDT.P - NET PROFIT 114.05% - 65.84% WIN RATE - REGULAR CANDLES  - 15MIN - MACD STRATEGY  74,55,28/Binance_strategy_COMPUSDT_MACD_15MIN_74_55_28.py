@@ -9,8 +9,8 @@ from Binance_config_COMPUSDT_MACD import api_key, api_secret
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 # Telegram Config
-TELEGRAM_BOT_TOKEN = '6855999125:AAFCeSCz0cgehfkqbLe3OfCr8ArLf-II9LE'
-TELEGRAM_CHAT_ID = '6685681458'
+TELEGRAM_BOT_TOKEN = 'BOT TOKEN'
+TELEGRAM_CHAT_ID = 'CHAT ID'
 
 np.seterr(all='ignore')
 
